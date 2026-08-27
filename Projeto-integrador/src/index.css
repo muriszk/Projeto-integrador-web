@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDE6D6;
+}
+
+.headerContainer {
+  padding: 30px;
+  background-color: #1C1815;
+  color: #D98E2B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.setContainer {
+  font-size: 3rem;
+}
+
+.set {
+  color: #DCD1B4;
+}
+
+.catalogoContainer {
+  color: #EDE6D6;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -9px;
+}
+
+.buttonCatalogo {
+  background-color: #591A1B;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.buttonCadastro {
+  background-color: #EDE6D6;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.catalogoFaixas{
+  font-weight: 900;
+}
+
+.subtituloCatalogo{
+  font-weight: 300;
+  color: gray;
+}
+
+.mainSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.itemCatalogo{
+  background-color: white;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin:2% auto;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.nomeCatalogo{
+  font-size: 1.6rem;
+}
+
+.albumCatalogo{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.generoCatalogo{
+  color: gray;
+  font-weight: 300;
+}
