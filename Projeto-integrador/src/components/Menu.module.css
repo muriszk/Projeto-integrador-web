@@ -1,0 +1,33 @@
+.headerContainer {
+  padding: 30px;
+  background-color: #1c1815;
+  color: #d98e2b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.setContainer { font-size: 3rem; }
+.textHeader { text-align: center; }
+.set { color: #dcd1b4; }
+.catalogoContainer { color: #ede6d6; }
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -9px;
+}
+
+.buttonCatalogo,
+.buttonCadastro {
+  border: 1px solid black;
+  box-shadow: 0 0 2px 2px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.buttonCatalogo { background-color: #591a1b; }
+.buttonCadastro { background-color: #ede6d6; }

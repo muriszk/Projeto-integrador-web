@@ -1,0 +1,53 @@
+.cadastroContainer {
+  width: 70%;
+  margin: 30px auto;
+  border: 2px solid black;
+  background-color: #ede6d6;
+  box-shadow: 0 0 2px 2px;
+}
+
+.cadastroHeader {
+  padding: 20px;
+  background-color: #1c1815;
+  color: #dcd1b4;
+  border-bottom: 3px dashed #d98e2b;
+}
+
+.fichaCadastro { color: #d98e2b; font-size: 0.8rem; margin-bottom: 10px; }
+.cadastroHeader h2 { font-size: 1.8rem; }
+
+.formCadastro {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.campoCadastro { display: flex; flex-direction: column; gap: 5px; }
+.campoCadastro label { font-size: 0.8rem; font-weight: 500; }
+.campoCadastro input,
+.campoCadastro select {
+  padding: 10px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.campoUrl,
+.campoFavorita,
+.buttonCadastrar { grid-column: 1 / 3; }
+
+.campoFavorita { display: flex; align-items: center; gap: 8px; }
+.campoFavorita input { width: 16px; height: 16px; }
+
+.buttonCadastrar {
+  padding: 15px;
+  background-color: #591a1b;
+  color: #ede6d6;
+  border: 2px solid black;
+  box-shadow: 0 0 2px 2px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.buttonCadastrar:hover { background-color: #7a2728; }

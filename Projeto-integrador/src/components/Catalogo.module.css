@@ -1,0 +1,27 @@
+.mainSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.catalogoFaixas { font-weight: 900; }
+.albumDaVez { font-weight: 700; }
+.subtituloCatalogo,
+.generoCatalogo { color: gray; font-weight: 300; }
+
+.itemCatalogo {
+  background-color: white;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 2% auto;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.nomeCatalogo { font-size: 1.6rem; }
+.albumCatalogo { font-size: 1.2rem; font-weight: 400; }
